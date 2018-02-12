@@ -1,0 +1,2 @@
+# MiZGiR
+The project MiZGiR
