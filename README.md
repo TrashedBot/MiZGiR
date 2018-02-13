@@ -166,7 +166,7 @@ function initMap() {
         {lat: -43.999792, lng: 170.463352}
       ]
     </script>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    <script src="https://github.com/googlemaps/js-marker-clusterer/blob/gh-pages/src/markerclusterer.js">
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6WP9c1pu-CIJpJ51FORQdKZOXYCxpr5Qg&callback=initMap">
