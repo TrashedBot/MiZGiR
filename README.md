@@ -9,9 +9,7 @@ The project MiZGiR
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-      #map {
-        height: 100%;
-      }
+      #map {height: 100%;}
       /* Optional: Makes the sample page fill the window. */
       html, body {
         height: 100%;
@@ -23,17 +21,13 @@ The project MiZGiR
   <body>
     <div id="map"></div>
     <script>
-
-      function initMap() {
-
+function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 3,
           center: {lat: -28.024, lng: 140.887}
         });
-
         // Create an array of alphabetical characters used to label the markers.
         var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
         // Add some markers to the map.
         // Note: The code uses the JavaScript Array.prototype.map() method to
         // create an array of markers based on a given "locations" array.
@@ -44,7 +38,6 @@ The project MiZGiR
             label: labels[i % labels.length]
           });
         });
-
         // Add a marker clusterer to manage the markers.
         var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
