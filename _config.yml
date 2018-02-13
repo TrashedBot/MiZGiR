@@ -1,7 +1,0 @@
-name: The project MiZGiR
-markdown: kramdown
-kramdown:
-  input: GFM
-  html_to_native: true
-  hard_wrap: false
-baseurl: /
