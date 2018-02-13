@@ -138,7 +138,7 @@ function initMap() {
           });
         });
             var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+            {imagePath: 'https://github.com/TrashedBot/MiZGiR/markerclusterer/m'});
       }
       var locations = [
         {lat: -31.563910, lng: 147.154312},
@@ -166,7 +166,7 @@ function initMap() {
         {lat: -43.999792, lng: 170.463352}
       ]
     </script>
-    <script src="https://github.com/googlemaps/js-marker-clusterer/blob/gh-pages/src/markerclusterer.js">
+    <script src="https://github.com/TrashedBot/MiZGiR/markerclusterer.js">
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6WP9c1pu-CIJpJ51FORQdKZOXYCxpr5Qg&callback=initMap">
