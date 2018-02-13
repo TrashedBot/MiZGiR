@@ -138,7 +138,7 @@ function initMap() {
           });
         });
             var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://github.com/TrashedBot/MiZGiR/markerclusterer/m'});
+            {imagePath: 'https://github.com/TrashedBot/MiZGiR/m'});
       }
       var locations = [
         {lat: -31.563910, lng: 147.154312},
