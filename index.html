@@ -177,7 +177,7 @@ function initMap() {
 <html>
  <head>
   <meta charset="utf-8">
-  <title>white-space</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <style>
    .example {
     border: 1px dashed #634f36; /* Параметры рамки */
@@ -189,9 +189,9 @@ function initMap() {
     white-space: normal; /* Переносов в тексте */ 
    } 
    .exampleTitle {
-    border: 1px solid black; /* Параметры рамки */
-    /* border-bottom: none; /* Убираем линию снизу */
-    /* padding: 3px; /* Поля вокруг текста */
+    /*border: 1px solid black; /* Параметры рамки */
+    border-bottom: none; /* Убираем линию снизу */
+    padding: 3px; /* Поля вокруг текста */
     display: inline; /* Отображать как встроенный элемент */
     background: #17263C; /* Цвет фона */
     font-weight: normal; /* Жирное начертание */
@@ -201,18 +201,25 @@ function initMap() {
    }
    .letter {
     color: #746855; /* Цвет символа */
-    font-size: 150%; /* Размер шрифта */
+    font-size: 130%; /* Размер шрифта */
    } 
    p {
     color: #46A12B; /* Цвет текста */
    }
- </style>
+    type="text/css">
+   BODY {
+    background: #17263C; /* Цвет фона веб-страницы */
+   } 
+   A {
+    color: #746855; /* Цвет ссылок */
+   }
+  </style>
  </head>
  <body> 
-   <p class="exampleTitle">THE PROJECT MiZGiR</p>
+   <p class="exampleTitle"> The project MiZGiR <a href="https://trashedbot.github.io/MiZGiR/"> Click me </a></p>
    <p class="example"><span class="letter">ABOUT THIS MAP</span></p>
    <p class="example">This map will list all unclassified "Trashed", which were released to the public, which we could confirm. However, many of them are not displayed, but these operations remain in development.</p>
-   <p class="example">If you have confirmation of additional unclassified "Trashed", send a message to Telegram ><a href="https://t.me/trashedbot">@MiZGiRbot</a>< with coordinates of the location.</p>
+   <p class="example">If you have confirmation of additional unclassified "Trashed", send a message to Telegram <a href="https://t.me/trashedbot">@MiZGiRbot</a> with coordinates of the location.</p>
    <p class="example"><a href="https://trashedbot.github.io">home.</a></p>
    
 </body>
