@@ -6,19 +6,23 @@
     <meta charset="utf-8">
     <title>MiZGiR</title>
     <style>
+      .example {
+        border: dashed 0px #634f36; /* Параметры рамки */
+        background: #fffff7; /* Цвет фона */
+        padding: 0px; /* Поля вокруг текста */
+        margin: 0 0 1em; /* Отступы вокруг */
+      }
       #map {height: 100%;
       }
       html, body {
-        z-index: 1;
-        position: absolute;
-        height: 98%;
-        width: 98%;
+        height: 100%;
         margin: 0;
         padding: 0;
       }
     </style>
   </head>
   <body>
+    <p class="example"></p>
     <div id="map"></div>
     <script>
 function initMap() {
