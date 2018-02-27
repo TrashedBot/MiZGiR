@@ -6,7 +6,7 @@ The project MiZGiR:
   <meta charset="utf-8">
    </head>
  <body>
-  <p><img src="https://trashedbot.github.io/MiZGiR/Mizgir21.png" alt="MiZGiR"
+  <p><img src="https://github.com/TrashedBot/MiZGiR/Mizgir 21.png" alt="MiZGiR"
           width="400" height="400"></p>
  </body>
 </html>
