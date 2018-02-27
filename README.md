@@ -30,7 +30,7 @@ The project MiZGiR:
 <p>If you have confirmation of additional unclassified "Trashed", send a message in Telegram <a href="https://t.me/MiZGiRbot">@MiZGiRbot</a> with the coordinates of the location.</p>
 <p><a href="https://trashedbot.github.io">Home.</a></p>
 
-<p>Copyright 2018.The project MiZGiR.TrashedBot <a href="https://t.me/@TrashedBot">@TrashedBot</a></p>
+<p>Copyright 2018.The project MiZGiR.TrashedBot in Telegram<a href="https://t.me/@TrashedBot">@TrashedBot</a></p>
 <p>This work is licensed under a Creative Commons Attribution 4.0 International License.https://creativecommons.org/licenses/by/4.0/</p>
 <p>Code samples are licensed under the Apache 2.0 License.  http://www.apache.org/licenses/LICENSE-2.0</p>
 
