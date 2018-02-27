@@ -6,7 +6,7 @@ The project MiZGiR:
   <meta charset="utf-8">
    </head>
  <body>
-  <p><img src="Mizgir21.png" alt="MiZGiR"
+  <p><img src="Mizgir%2021.png" alt="MiZGiR"
           width="400" height="400"></p>
  </body>
 </html>
@@ -20,7 +20,7 @@ The project MiZGiR:
   <meta charset="utf-8">
    </head>
  <body>
-  <p><img src="Mizgir12.png" alt="MiZGiR Marker"
+  <p><img src="Mizgir%2012.png" alt="MiZGiR Marker"
           width="100" height="100"></p>
  </body>
 </html>
