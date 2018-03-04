@@ -19,15 +19,7 @@
   <body>
     <div id="map"></div>
     <script>
-function getConten() {
-        getPageContent("https://script.googleusercontent.com/macros/echo?user_content_key=irbrECRw5QR3CXdQzxfbZNYGpwhl4VMpY8S6EHIEmvuOT-Tm-bnT1MFTwdgrf1dE16mkZrT_RXaUgr6KWE4hC0zuZM3XaSTbm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnE4g5VMfvo5vVtIV9uxp8Nukei1wB11d9cgHyP34szQc_Kx236mianX9AEkQep0s_uIqWsDnSrEd&lib=Mc8KzVU3_s1AkC74h0iWLBHC7tyB-4zAN")
-      }
-      function getPageContent(url) {
-        var jsontext = '{"location":[{"lat":,"lng":},;]}';
-        var loc = JSON.parse(jsontext);
-        document.write(loc.lat + ", " + loc.lng);
-        return loc
-      }      
+     
 function initMap() {
       var uluru = {lat: 10, lng: 120};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -151,8 +143,8 @@ function initMap() {
             {imagePath: 'https://trashedbot.github.io/MiZGiR/m'});
       }
             
-      var locations = function.getConten();
-/*      [
+
+      var locations = [
         {lat: -31.563910, lng: 147.154312},
         {lat: -33.718234, lng: 150.363181},
         {lat: -33.727111, lng: 150.371124},
@@ -177,7 +169,7 @@ function initMap() {
         {lat: -42.735258, lng: 147.438000},
         {lat: -43.999792, lng: 170.463352}
       ]
-      */
+     
     </script>
     <script src="https://trashedbot.github.io/MiZGiR/markerclusterer.js">
     </script>
