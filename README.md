@@ -32,8 +32,8 @@ The project MiZGiR:
 
 <p>Copyright 2018.The project MiZGiR.</p>
 <p>Bot in Telegram<a href="https://t.me/@TrashedBot">@TrashedBot</a></p>
-<p>This work is licensed under a Creative Commons Attribution 4.0 International License.https://creativecommons.org/licenses/by/4.0/</p>
-<p>Code samples are licensed under the Apache 2.0 License.  http://www.apache.org/licenses/LICENSE-2.0</p>
+<p>This work is licensed under a Creative Commons Attribution 4.0 International License.</p>
+<p>Code samples are licensed under the Apache 2.0 License.</p>
 
-<p><a href="https://github.com">Thanks GitHub,Inc.</a></p>
+<p>Thanks GitHub,Inc.</p>
 
