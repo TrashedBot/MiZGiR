@@ -142,12 +142,9 @@ function initMap() {
         var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://trashedbot.github.io/MiZGiR/m'});
       }
-      var script = document.createElement('script');
-script.src = 'https://script.googleusercontent.com/macros/echo?user_content_key=NDXctrb4gUBRFpEKASCdNN1Z-m_zK1eheaLjL52uCTseCs8pWfr1n_FvsNbyGlSu4hTmn_f5tnqcL_IfP56uQ9xbC6drN6TXm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnE4g5VMfvo5vVtIV9uxp8Nukei1wB11d9cgHyP34szQc_Kx236mianX9AEkQep0s_uIqWsDnSrEd&lib=Mc8KzVU3_s1AkC74h0iWLBHC7tyB-4zAN';
-document.getElementsByTagName('location')[0].appendChild(script);
-      function location(response) {
-  map.data.addGeoJson(response);
-}
+      var locations = document.createElement('script');
+        script.src = 'https://script.googleusercontent.com/macros/echo?user_content_key=NDXctrb4gUBRFpEKASCdNN1Z-m_zK1eheaLjL52uCTseCs8pWfr1n_FvsNbyGlSu4hTmn_f5tnqcL_IfP56uQ9xbC6drN6TXm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnE4g5VMfvo5vVtIV9uxp8Nukei1wB11d9cgHyP34szQc_Kx236mianX9AEkQep0s_uIqWsDnSrEd&lib=Mc8KzVU3_s1AkC74h0iWLBHC7tyB-4zAN.json';
+ 
             
 
       /*var locations = [
