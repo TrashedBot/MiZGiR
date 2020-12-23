@@ -3,8 +3,6 @@ let map;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    
-    var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 2,
     center: new google.maps.LatLng(2.8, -187.3),
     mapTypeId: "trashed",
@@ -110,9 +108,7 @@ function initMap() {
     }, {
       featureType: 'water',
       elementType: 'labels.text.stroke',
-      stylers: [{
-        color: '#17263c'
-          }]
+      stylers: [{color: '#17263c'}]
     }]
   });
    
