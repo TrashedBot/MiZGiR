@@ -132,20 +132,34 @@ function initMap() {
           }]
     }]
   });
-        var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        var markers = locations.map(function(location, i) {
-          return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
+  
+// Create a <script> tag and set the USGS URL as the source.
+  const script = document.createElement("script");
+  script.src =
+    "https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js";
+  document.getElementsByTagName("head")[0].appendChild(script);
+}
+      const eqfeed_callback = function (results) {
+        for (let i = 0; i < results.features.length; i++) {
+          const coords = results.features[i].geometry.coordinates;
+          const latLng = new google.maps.LatLng(coords[1], coords[0]);
+          new google.maps.Marker({
+            position: latLng,
+            map: map,
           });
-        });
-        var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://trashedbot.github.io/MiZGiR/m'});
-      }
+        }
+      };
+// get of coordinates.
       
-      
-             
-
+  var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  var markers = locations.map(function(location, i) {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length]
+    });
+  });
+  var markerCluster = new MarkerClusterer(map,markers,{imagePath:'https://trashedbot.github.io/MiZGiR/m'});
+}
       var locations = [
         {lat: -31.563910, lng: 147.154312},
         {lat: -33.718234, lng: 150.363181},
@@ -173,8 +187,7 @@ function initMap() {
         {lat: 56.375758, lng: -3.415524},
         {lat: 50.237042, lng: 30.522001},
         {lat: 49.852500, lng: 29.670537}
-      ]
-     
+      ]     
     </script>
     <script src="https://trashedbot.github.io/MiZGiR/markerclusterer.js">
     </script>
