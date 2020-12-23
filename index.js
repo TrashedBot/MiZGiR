@@ -5,7 +5,7 @@ function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 2,
     center: new google.maps.LatLng(2.8, -187.3),
-    mapTypeId: "trashed",
+    mapTypeId: "terrain",
   });
   // Create a <script> tag and set the USGS URL as the source.
   const script = document.createElement("script");
