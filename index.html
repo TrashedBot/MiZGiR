@@ -19,7 +19,9 @@
   <body>
     <div id="map"></div>
     <script>
-     
+      "use strict";
+      var map; 
+      
 function initMap() {
       var uluru = {lat: 10, lng: 120};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -134,21 +136,21 @@ function initMap() {
   });
   
 // Create a <script> tag and set the USGS URL as the source.
-  const script = document.createElement("script");
+  var script = document.createElement("script");
   script.src =
     "https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js";
   document.getElementsByTagName("head")[0].appendChild(script);
 }
-      const eqfeed_callback = function (results) {
-        for (let i = 0; i < results.features.length; i++) {
-          const coords = results.features[i].geometry.coordinates;
-          const latLng = new google.maps.LatLng(coords[1], coords[0]);
+      var eqfeed_callback = function eqfeed_callback(results) {
+        for (var i = 0; i < results.features.length; i++) {
+          var coords = results.features[i].geometry.coordinates;
+          var latLng = new google.maps.LatLng(coords[1], coords[0]);
           new google.maps.Marker({
             position: latLng,
             map: map,
           });
         }
-      };
+      }; 
 // get of coordinates.
       
   var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -189,10 +191,12 @@ function initMap() {
         {lat: 49.852500, lng: 29.670537}
       ]     
     </script>
-    <script src="https://trashedbot.github.io/MiZGiR/markerclusterer.js">
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6WP9c1pu-CIJpJ51FORQdKZOXYCxpr5Q&language=en-ru&callback=initMap">
-    </script>
+    <div id="iframe-contents">
+  <div id="map"></div>
+</div>
+    <script src="https://trashedbot.github.io/MiZGiR/markerclusterer.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6WP9c1pu-CIJpJ51FORQdKZOXYCxpr5Q&language=en-ru&callback=initMap"></script>
   </body>
 </html>
 <<!DOCTYPE html>
