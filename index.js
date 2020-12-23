@@ -7,7 +7,6 @@ function initMap() {
     center: new google.maps.LatLng(2.8, -187.3),
     mapTypeId: "trashed",
   });
-   
   // Create a <script> tag and set the USGS URL as the source.
   const script = document.createElement("script");
   // This example uses a local copy of the GeoJSON stored at
