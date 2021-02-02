@@ -1,6 +1,24 @@
 <html>
   <head>
   <link rel="stylesheet" href="resource://content-accessible/plaintext.css"></link>
+<body>
+    <script>
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      -moz-control-character-visibility: visible;
+    }
+    .nowrap pre {
+      white-space: pre;
+    }
+unicode-bidi: plaintext;
+}
+@media (width: 0) or (height: 0) {
+  :root {
+    display: none;
+  }
+}
+</script>  
 </head>
 <body>
     <pre>
