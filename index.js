@@ -1,7 +1,11 @@
 // [START maps_earthquake_markers]
 let map;
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
+function initMap()
+{
+  map = new google.maps.Map
+  ( 
+    document.getElementById("map"),
+    {
     zoom: 2,
     center: new google.maps.LatLng(2.8, -187.3),
     mapTypeId: "terrain",
@@ -26,12 +30,13 @@ function initMap() {
       {featureType: 'water',elementType: 'labels.text.fill',stylers: [{color: '#515c6d'}]},
       {featureType: 'water',elementType: 'labels.text.stroke',stylers: [{color: '#17263c'}]}
     ]
-  });
+    }
+  );
   const script = document.createElement("script");
-  script.src ="https://script.googleusercontent.com/macros/echo?user_content_key=CQ0bv7da2Xb80wG6a0KOqKjiT41nRwVR5AR5U7m0p7bC7DYLPAGZrJJdapWZKSrm0Xd4LseGPKX4ske4bs63ubedkNlXtZdim5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnAXG9WzXz78MuCDB8u3tvlV_99N1TkWyPKKX-BCeLI2ljxtHvgA_5oPLMmlKaPz_Y-70lrzdhBYLGGaU2pP6Ntk&lib=Mc8KzVU3_s1AkC74h0iWLBHC7tyB-4zAN";
+  script.src ="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp";
   document.getElementsByTagName("head")[0].appendChild(script);
 }
-const location = function (results) {
+const eqfeed_callback = function (results) {
   for (let i = 0; i < results.features.length; i++) {
     const coords = results.features[i].geometry.coordinates;
     const latLng = new google.maps.LatLng(coords[1], coords[0]);
