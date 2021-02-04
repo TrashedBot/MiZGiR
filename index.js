@@ -32,16 +32,10 @@ function initMap()
     ]
     }
   );
- /*
   const script = document.createElement("script");
   script.src ="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp";
   document.getElementsByTagName("head")[0].appendChild(script);
-  */
-map.data.loadGeoJson(
-    "https://script.googleusercontent.com/macros/echo?user_content_key=2hOEstrt3pwujxLU9uuXAws47RhAnRzldEPMbRWLIbyBaEvhGTrNGb_ZoHm68p-hDprrpkWY6nwZqC-fyNwhfkEGHXRxzidVm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnJUM5QGSfglqWYqrukR7ahyVfJp-UGFkb-tPIdXS_WNZytOBw3d8IOqPpehwqDtynQ&lib=M8w4koYGW2Xb8Bw6i0JFLe3C7tyB-4zAN"
-  );
 };
-/*
 const eqfeed_callback = function (results) 
 {
   for (
@@ -55,4 +49,4 @@ const eqfeed_callback = function (results)
       map: map,});
   }
 };
-*/ 
+
