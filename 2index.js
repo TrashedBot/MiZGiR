@@ -32,6 +32,7 @@ function initMap()
     ]
     }
   );
+  /*
   const script = document.createElement("script");
   script.src ="https://script.googleusercontent.com/macros/echo?user_content_key=dIWZrKwFgFknlQrUzvPb6rvrEtcxuKewPaj_eiZ1dybt2xTs7sWqGgL3IG76ew2__6UsFQejG6c3GsDAqbRg2gpqKSulPWEAm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOMnaV0NuzGuVzhEtQl69eEnf9o2fC3kgWls4S7nSf0CtTUcfLDDSZandPWNUyxT9g&lib=Mc8KzVU3_s1AkC74h0iWLBHC7tyB-4zAN";
   document.getElementsByTagName("coordinates")[0].appendChild(script);
@@ -56,4 +57,5 @@ const  = function (results)
       position: latLng,
       map: map,});
   }
+*/
 };
