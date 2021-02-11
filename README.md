@@ -1,5 +1,5 @@
-# MiZGiR
-The project MiZGiR:
+<p><h1><a href="https://trashedbot.github.io/MiZGiR">The project MiZGiR<h1></a></p>
+The project MiZGiR
 [Click me!](http://trashedbot.github.io/MiZGiR/iindex.html) 
 <html>
  <head>
