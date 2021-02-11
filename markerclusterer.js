@@ -1,6 +1,6 @@
 /* TrashedBot 
 // TrashedDAO
-// 2018 - 2020
+// 2018 - 2021
 */
 // ==ClosureCompiler==
 // @compilation_level ADVANCED_OPTIMIZATIONS
