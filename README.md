@@ -1,12 +1,11 @@
-<p><h1><a href="https://trashedbot.github.io/MiZGiR">The project MiZGiR</h1></a></p>
-#The project MiZGiR
-[Click me!](http://trashedbot.github.io/MiZGiR/iindex.html) 
 <html>
  <head>
   <meta charset="utf-8">
    </head>
  <body>
-  <p><img src="http://trashedbot.github.io/MiZGiR/Mizgir 21.png" alt="MiZGiR"
+  <p><h1><a href="https://trashedbot.github.io/MiZGiR">The project MiZGiR</h1></a></p>
+ <p><a href="http://trashedbot.github.io/MiZGiR/iindex.html">[Click me!]</a></p>
+ <p><img src="http://trashedbot.github.io/MiZGiR/Mizgir 21.png" alt="MiZGiR"
           width="400" height="400"></p>
  </body>
 </html>
