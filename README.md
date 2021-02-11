@@ -1,6 +1,6 @@
 # MiZGiR
 The project MiZGiR:
-[Click me!](http://trashedbot.github.io/MiZGiR) 
+[Click me!](http://trashedbot.github.io/MiZGiR/iindex.html) 
 <html>
  <head>
   <meta charset="utf-8">
