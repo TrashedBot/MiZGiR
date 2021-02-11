@@ -4,7 +4,7 @@
    </head>
  <body>
   <p><a href="https://trashedbot.github.io/MiZGiR">The project MiZGiR</a></p>
-  <p><a href="http://trashedbot.github.io/MiZGiR/iindex.html">[Click me!]</a></p>
+  <p><a href="http://trashedbot.github.io/MiZGiR/iindex.js">[Click me!]</a></p>
   <p><img src="http://trashedbot.github.io/MiZGiR/Mizgir 21.png" alt="MiZGiR"
           width="400" height="400"></p>
  </body>
