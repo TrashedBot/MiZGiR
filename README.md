@@ -27,10 +27,13 @@
  </body>
 </html>
  <body>
- <p>Copyright 2018 - 2021.The project MiZGiR.</p>
+ <p>Copyright 2018 The project MiZGiR.</p>
  <p>Bot in Telegram<a href="https://t.me/@TrashedBot">@TrashedBot</a></p>
  <p>This work is licensed under a Creative Commons Attribution 4.0 International License.</p>
  <p>Code samples are licensed under the Apache 2.0 License.</p>
  <p>Thanks GitHub,Inc.</p>
 </body>
+
+<p><a href="http://trashed.pw">[Click WEB!]</a></p>
+
 
