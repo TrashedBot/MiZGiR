@@ -1,6 +1,7 @@
 /* TrashedBot 
 // TrashedDAO
-// 2018 - 2021
+// <p>2018 project Trashed</p>
+// <p><a href="http://trashed.pw">[Click WEB!]</a></p>
 */
 // ==ClosureCompiler==
 // @compilation_level ADVANCED_OPTIMIZATIONS
