@@ -1,3 +1,5 @@
+//<p>2018 project Trashed</p>
+//<p><a href="http://trashed.pw">[Click WEB!]</a></p>
 // [START maps_earthquake_markers]
 let map;
 function initMap()
